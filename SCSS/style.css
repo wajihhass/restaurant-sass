@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home {
+  background-color: beige;
+  color: black;
+  height: 600px;
+  text-align: center;
+}
+.home ul {
+  list-style-type: none;
+  text-align: center;
+}
+.home nav {
+  padding: 10px;
+  width: 100%;
+}
+.home nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+.home nav li {
+  display: inline;
+}
+.home nav a {
+  text-decoration: none;
+  font-size: 1.6em;
+  color: green;
+  margin-right: 25px;
+}
+.home nav a:hover {
+  color: darkred;
+}
+.home #banner {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+.home #banner img {
+  width: 60%;
+  height: auto;
+}
+.home main {
+  margin: 0 20%;
+}
+.home main .service {
+  display: inline-block;
+  background-color: white;
+  border: 5px solid green;
+  border-radius: 5px;
+  color: darkred;
+  font-size: 2em;
+  padding: 20px;
+  margin: 10px;
+}
+.home main table {
+  border: 3px solid black;
+  width: 100%;
+}
+.home main table td, .home main table th {
+  border: 1px solid black;
+  padding: 5px;
+}
+.home .hightlight {
+  color: orangered;
+}
+.home #holiday {
+  width: 100%;
+  padding: 20px;
+  background-color: yellow;
+}
+.home footer {
+  width: 100%;
+  padding: 20px;
+  background-color: burlywood;
+}
+.home footer p {
+  color: green;
+  font-size: 15pt;
+}/*# sourceMappingURL=style.css.map */

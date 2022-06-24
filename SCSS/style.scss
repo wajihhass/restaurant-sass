@@ -1,0 +1,106 @@
+@import "utilities";
+@import "config";
+
+* {
+  box-sizing: border-box;
+  margin: $default-buffer-number;
+  padding: $default-buffer-number;
+}
+
+body {
+  margin: $default-buffer-number;
+  padding: $default-buffer-number;
+  background-color: $beige-color;
+  text-align: center;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home {
+  @include set-bg($beige-color);
+  height: 600px;
+  text-align: center;
+  ul {      
+    list-style-type: none;
+    text-align: center;     
+  }
+  nav {   
+    padding: 10px;
+    width: 100%;
+    ul {      
+      list-style-type: none;
+      text-align: center;     
+    }
+    li {        
+      display: inline;      
+    }
+    a {
+      text-decoration: none;
+      font-size: 1.6em;
+      color: $green-color;
+      margin-right: 25px;
+      &:hover {
+        color: $red-color
+      }
+    }
+  }
+
+  #banner {
+    width: 100%;
+    height: auto;
+    background-color: $white-color;
+    img {    
+      width: 60%;
+      height: auto;  
+    }
+  }
+  
+  main {    
+    margin: 0 20%; 
+    .service {
+      display: inline-block;
+      background-color: $white-color;
+      border: 5px solid $green-color;
+      border-radius: 5px;
+      color: $red-color;
+      font-size: 2em;
+      padding: 20px;
+      margin: 10px;
+    }
+    table {         
+      border: 3px solid $table-color;
+      width: 100%;
+      td, th {
+        border: 1px solid $table-color;
+        padding: 5px;
+      }
+    }    
+  }
+
+  .hightlight {
+    color: $orange-color;
+  }
+  #holiday {
+      width: 100%;
+      padding: 20px;
+      background-color: $yellow-color;
+  }
+  footer {
+      width: 100%;
+      padding: 20px;
+      background-color: $brown-color;
+      p {
+        color: $green-color;
+        font-size: 15pt;
+    }
+  }
+}
